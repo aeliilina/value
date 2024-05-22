@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: grey;
+}
+.wrapper > div{ 
+    display: flex;
+    flex-direction: column;
+}
+/* знак больше чтобы применился только на начальный div */
